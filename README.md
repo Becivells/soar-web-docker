@@ -1,5 +1,5 @@
 # soar-web docker 自动生成仓库
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/becivells/soar-web-docker/Publish%20Releases%20to%20Hub) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/becivells/soar-web-docker) ![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)   
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/becivells/soar-web-docker/Publish%20Releases%20to%20Hub) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/becivells/soar-web-docker) ![[Docker Pulls](https://hub.docker.com/r/becivells/soar-web/)](https://img.shields.io/docker/pulls/becivells/soar-web)   
 地址：[https://hub.docker.com/r/becivells/soar-web/](https://hub.docker.com/r/becivells/soar-web/)   
 使用 `github action` 生成docker镜像并且自动推送给 `DockerHub`
 
