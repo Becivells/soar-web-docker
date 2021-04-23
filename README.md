@@ -11,14 +11,14 @@
 
 Dockerfile 见根目录 Dockerfile 文件
 
-```
+```shell script
 docker pull becivells/soar-web
 docker run -d --name soar-web -p 5077:5077 becivells/soar-web
 ```
 
 **也可以使用 Dockerfile 自行构建**
 
-```
+```shell script
 docker build --no-cache -t soar-web .
 ```
 
