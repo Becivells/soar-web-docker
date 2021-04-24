@@ -4,16 +4,15 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/xiyangxixian/soar-web?label=soar-web%20commit)](https://github.com/xiyangxixian/soar-web)
 [![GitHub last commit](https://img.shields.io/github/last-commit/becivells/soar-web-docker?label=soar-web%20docker%20commit)](https://github.com/Becivells/soar-web-docker)
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/becivells/soar-web-docker)](https://github.com/Becivells/soar-web-docker/tags)
-[![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)](https://hub.docker.com/r/becivells/soar-web/)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/becivells/soar-web)     
+[![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)](https://hub.docker.com/r/becivells/soar-web/)  
 地址：[https://hub.docker.com/r/becivells/soar-web/](https://hub.docker.com/r/becivells/soar-web/)   
 使用 `github action` 生成docker镜像并且自动推送给 `DockerHub`
 
-| 版本信息 | soar版本                                                     | soar-web版本                                                 | 说明                                    |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
-| Latest   | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | `docker pull becivells/soar-web:latest` |
-| V2.0.3   | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | `docker pull becivells/soar-web:v2.0.3` |
-| v1.0.0   | 2019/01/05-g552ccf9                                          | 2019/01/05-g552ccf9                                          | `docker pull becivells/soar-web:v1.0.0` |
+| 版本信息 | soar版本                                                     | soar-web版本                                                 | 说明                                    | Size                                                         |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
+| Latest   | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | `docker pull becivells/soar-web:latest` | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/latest) |
+| V2.0.3   | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | `docker pull becivells/soar-web:2.0.3`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/2.0.3) |
+| v1.0.0   | 2019/01/05-g552ccf9                                          | 2019/01/05-g552ccf9                                          | `docker pull becivells/soar-web:1.0.0`  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/1.0.0) |
 
 Dockerfile 见根目录 Dockerfile 文件
 
