@@ -4,7 +4,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/xiyangxixian/soar-web?label=soar-web%20commit)](https://github.com/xiyangxixian/soar-web)
 [![GitHub last commit](https://img.shields.io/github/last-commit/becivells/soar-web-docker?label=soar-web%20docker%20commit)](https://github.com/Becivells/soar-web-docker)
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/becivells/soar-web-docker)](https://github.com/Becivells/soar-web-docker/tags)
-[![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)](https://hub.docker.com/r/becivells/soar-web/)   
+[![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)](https://hub.docker.com/r/becivells/soar-web/)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/becivells/soar-web)     
 地址：[https://hub.docker.com/r/becivells/soar-web/](https://hub.docker.com/r/becivells/soar-web/)   
 使用 `github action` 生成docker镜像并且自动推送给 `DockerHub`
 
