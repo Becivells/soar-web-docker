@@ -6,7 +6,7 @@
 [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/becivells/soar-web-docker)](https://github.com/Becivells/soar-web-docker/tags)
 [![Docker Pulls](https://img.shields.io/docker/pulls/becivells/soar-web)](https://hub.docker.com/r/becivells/soar-web/)  
 地址：[https://hub.docker.com/r/becivells/soar-web/](https://hub.docker.com/r/becivells/soar-web/)   
-使用 `github action` 生成docker镜像并且自动推送给 `DockerHub`
+使用 `github action` 生成docker 镜像并且自动推送给 `DockerHub`
 
 |                  版本                   |                        使用的soar版本                        |                      使用的soar-web版本                      |                           镜像大小                           |
 | :-------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
