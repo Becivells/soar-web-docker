@@ -12,7 +12,7 @@
 | :-------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | `docker pull becivells/soar-web:latest` | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/latest) |
 | `docker pull becivells/soar-web:2.0.3`  | 2021/03/22-[d0d0ce5](https://github.com/XiaoMi/soar/commit/d0d0ce57c9036f7e2e4c5a506e131ce42b332550) | 2020/12/01-[cdde5ef](https://github.com/xiyangxixian/soar-web/commit/cdde5effcbe35c912d53f4c90ae1742887cfbc10) | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/2.0.3) |
-| `docker pull becivells/soar-web:1.0.0`  |                     2019/01/05-g552ccf9                      |                     2019/01/05-g552ccf9                      | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/1.0.0) |
+| `docker pull becivells/soar-web:1.0.0`  |                     2019/01/05-g552ccf                       |                     2019/01/05-g552ccf                       | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/becivells/soar-web/1.0.0) |
 
 Dockerfile 见根目录 Dockerfile 文件
 
