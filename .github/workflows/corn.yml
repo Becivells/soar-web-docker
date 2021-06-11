@@ -20,7 +20,7 @@ jobs:
         run: |
           DOCKER_IMAGE=becivells/soar-web
           VERSION=nightly
-          TAGS=${DOCKER_IMAGE}:nightly
+          TAGS=${DOCKER_IMAGE}:nightly,${DOCKER_IMAGE}:latest
           echo ::set-output name=tags::${TAGS}
 
 
