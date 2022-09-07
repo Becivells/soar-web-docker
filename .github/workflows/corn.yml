@@ -6,7 +6,7 @@ name: Publish Releases to Hub
 on:
   push:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 21 * */1 *'
 
 jobs:
   bot:
@@ -42,7 +42,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           context: ./
           file: Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/arm
+          platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.prep.outputs.tags }}
           cache-from: type=local,src=/tmp/.buildx-cache
