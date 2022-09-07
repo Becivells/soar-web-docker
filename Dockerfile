@@ -12,7 +12,7 @@ RUN mkdir  -p ${GOPATH}/src/github.com/XiaoMi/ && git clone -b dev https://githu
 RUN cd ${GOPATH}/src/github.com/XiaoMi/soar &&  CGO_ENABLED=0 make &&mv bin/soar /root/
 
 
-FROM scratch
+FROM alpine
 MAINTAINER  becivells <becivells@gmail.com>
 
 COPY --from=builder /root/soar /soar-bin/soar
@@ -20,4 +20,4 @@ COPY --from=builder /root/soar-web /soar-web
 
 WORKDIR  /
 EXPOSE 5077
-CMD ["/soar-web"]
+CMD ["/soar-web","--addr","0.0.0.0:5077"]

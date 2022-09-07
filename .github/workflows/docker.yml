@@ -2,7 +2,6 @@ name: Publish Releases to Hub
 
 # When its time to do a release do a full cross platform build for all supported
 # architectures and push all of them to Docker Hub.
-# Only trigger on semver shaped tags.
 on:
   push:
     tags:
